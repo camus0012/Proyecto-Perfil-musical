@@ -45,7 +45,11 @@ nav{
 
 
 .efecto{
-           
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 5px;
+          
             text-align: center;
             font-family: 'Oswald', sans-serif;
             color:   white;
@@ -106,12 +110,7 @@ nav{
         }
         
 
-        .centro{text-align: center;
-
-            width:  100%;
-            height: 100%;
-
-        }
+       
         
     
     nav button {
