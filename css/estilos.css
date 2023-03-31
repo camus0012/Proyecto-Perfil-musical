@@ -1,6 +1,6 @@
 
 body{       font-family: 'Oswald', sans-serif !important;
-            background-color: rgb(10, 10, 10) !important;
+           
 }
 
 .img_perfil{
@@ -71,3 +71,27 @@ nav{
 .youtube{
     border-radius: 15px;
 }
+
+.img_boton{
+            width: 10%;
+            height: 10%;
+}
+
+.wrap-2{
+            position:fixed;
+            z-index:-30;
+            top:0;
+            left:0;
+            overflow:hidden;
+            height:100vh;
+            width:100vw;
+            margin:auto;
+                background: -webkit-gradient (linear, left top, right bottom, from(#434ee1), to(#b41313));
+            background: linear-gradient(to bottom right, #050505, #050505);
+        }
+        canvas{
+            width:100%;
+            height:100%;
+        }
+        
+        
