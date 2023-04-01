@@ -83,8 +83,7 @@ nav{
 
 .youtube{
     border-radius: 15px;
-    max-width: 70%;
-      height: auto;
+    
 }
 
 .img_boton{
@@ -130,5 +129,11 @@ nav{
       nav button {
         max-width: 50px;
       }
+
+      .youtube{
+        border-radius: 15px;
+        max-width: 70%;
+          height: auto;
+    }
     }
   
